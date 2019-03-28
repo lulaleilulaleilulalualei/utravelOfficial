@@ -1,0 +1,139 @@
+#aboutContent {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.topBanner {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.bannerBg {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 1;
+	transition: all 0.3s;
+	opacity: 0;
+}
+.bannerText {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.bannerText>div {
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.bannerTextBox {
+	position: absolute;
+	top: 50%;
+	left: 198px;
+	width: auto;
+	height: 96px;
+	margin-top: -48px;
+	font-size: 34px;
+	color: #FFFFFF;
+}
+.bannerTextBox>span {
+	display: block;
+}
+.aboutMain {
+	width: 100%;
+	background-color: #2B2E3D;
+}
+.aboutMainContent {
+	width: 1140px;
+	height: auto;
+	margin: 0 auto;
+	padding: 120px 0;
+}
+.itemText {
+	margin-bottom: 120px;
+}
+.itemText>h3 {
+	font-size: 24px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+.itemText>p {
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 34px;
+}
+
+.contactUs {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.contactBg {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+.contactBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+.contactBox>div {
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.contactBoxText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -423px;
+	margin-top: -200px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 7px 18px 0 rgba(0,42,255,0.13);
+	        box-shadow: 0 7px 18px 0 rgba(0,42,255,0.13);
+	border-radius: 6px;
+}
+.textBox>h3 {
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	padding: 32px 0;
+	border-bottom: 1px solid #CCCCCC;
+	font-weight: 500;
+}
+.contactType {
+	padding: 40px 68px;
+}
+.itemContactType {
+	overflow: hidden;
+}
+.itemContactType:first-child {
+	margin-bottom: 37px;
+}
+.itemContactType>div:first-child {
+	margin-right: 50px;
+}
+.itemContactType span {
+	font-size: 18px;
+	color: #B3B3B3;
+	display: block;
+	margin-bottom: 15px;
+}
+.itemContactType p {
+	width: 330px;
+	font-size: 24px;
+	color: #000000;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #979797;
+}

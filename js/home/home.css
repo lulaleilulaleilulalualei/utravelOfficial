@@ -1,0 +1,476 @@
+
+#homeContent{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.homeBanner {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.homeBannerImg {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: auto;
+	transition: all 0.3s;
+	opacity: 0;
+}
+.homeBannerText {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.homeBannerText>div{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.homeBannerText_box {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -160px;
+	z-index: 10;
+}
+.homeBannerText_box>h2 {
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: left;
+	margin-bottom: 40px;
+	font-weight: 500;
+}
+.homeBannerText_box>p {
+	font-size: 16px;
+	color: #D7D9E1;
+	line-height: 32px;
+	margin-bottom: 40px;
+}
+
+.phoneLoad {
+	height: 40px;
+	width: auto;
+}
+.phoneLoad>div {
+	height: 40px;
+	width: 150px;
+	padding: 10px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#FFDF00), to(#FEA200));
+	background-image: linear-gradient(90deg, #FFDF00 0%, #FEA200 100%);
+	border-radius: 3px;
+	position: relative;
+}
+.homeLookQr {
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	width: 150px;
+	height: 140px;
+	padding: 5px 15px 15px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#FFDF00), to(#FEA200));
+	background-image: linear-gradient(90deg, #FFDF00 0%, #FEA200 100%);
+}
+.phoneLoad>div:hover {
+	cursor: pointer;
+}
+.phoneText {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.phoneText>span {
+	display: block;
+	width: 100px;
+	text-align: center;
+}
+.phoneText>b {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url('../../images/small_qr.png') no-repeat center;
+	background-size: 100%;
+}
+.iOSLoad {
+	margin-right: 10px;
+}
+#homeMain {
+	width: 100%;
+	min-height: 600px;
+	position: relative;
+	background-color: #2B2E3D;
+}
+.homeNav {
+	background-color: #000000;
+	position: relative;
+	height: 70px;
+	width: 100%;
+}
+.homeNavBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	background-color: #000000;
+	z-index: 100;
+}
+.homeNavBox>div {
+	position: relative;
+	width: 1140px;
+	margin: 0 auto;
+	height: 70px;
+}
+
+.itemHomeNav {
+	width: 33%;
+	height: 100%;
+	text-align: center;
+}
+.itemHomeNav>span {
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: #FFFFFF;
+	line-height: 70px;
+}
+.itemHomeNav:hover{
+	cursor: pointer;
+}
+.itemHomeNav.hoveNavActive>span{
+	border-bottom: 1px solid #FFD532;
+}
+
+#homeContentBox {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+#selfCircleBox {
+	width: 100%;
+	height: auto;
+	padding-top: 120px;
+}
+.topTitle {
+	font-size: 36px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 130px;
+	font-weight: 500;
+}
+
+.phoneInRight ,.phoneInLeft {
+	width: 1240px;
+	height: 776px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 300px;
+}
+.phoneContentCut {
+	width: 850px;
+	height: 600px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFDF00), to(#FEA200));
+	background-image: linear-gradient(-180deg, #FFDF00 0%, #FEA200 100%);
+	padding: 60px;
+	position: absolute;
+}
+.phoneInRight .phoneContentCut {
+	bottom: 35px;
+	left: 20px;
+}
+.phoneContentBox {
+	width: 320px;
+	margin-top: 90px;
+}
+.itemPhoneContent {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.itemPhoneContent>span {
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-right: 15px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -6px;
+}
+.itemPhoneContent:not(:last-child) {
+	margin-bottom: 70px;
+}
+.itemPhoneContent>div{
+	margin-left: 39px;
+}
+.itemPhoneContent>div h4 {
+	display: inline-block;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+	font-weight: 500;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.itemPhoneContent>div span {
+	display: block;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 28px;
+}
+.phoneContentBox .activeCut h4 {
+	font-size: 48px;
+}
+.phoneBox {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 390px;
+	height: 100%;
+	background: url('../../images/phoneBg.png') no-repeat center;
+	border-radius: 60px;
+	overflow: hidden;
+}
+.phoneInRight .phoneBox {
+	right: 0;
+}
+.phoneBoxList {
+	width: 100%;
+	height: auto;
+}
+.itemShowImg {
+	width: 100%;
+	height: 100%;
+	padding: 18px 24px;
+}
+.phoneInLeft .phoneContentCut {
+	bottom: 35px;
+	right: 20px;
+}
+.phoneInLef .phoneBox  {
+	left: 0;
+}
+.middelTitle {
+	font-size: 36px;
+	color: #FFFFFF;
+	font-weight: 500;
+	margin-bottom: 180px;
+	text-align: center;
+}
+.allUserInWorld {
+	height: auto;
+	width: 87.5%;
+	margin: 0 auto;
+	margin-bottom: 300px;
+}
+#video>span{
+	display: block;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	margin-top: 360px;
+}
+.circleBottom {
+	width: 100%;
+	height: auto;
+}
+
+#selfCarClub {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.carClubBanner {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.carClubBannerImg {
+	height: auto;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	transition: all 0.3s;
+	opacity: 0;
+}
+.carClubBannerTxt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+.carClubBannerTxtBox {
+	width: 1140px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 70px;
+}
+.carClubBannerTxtBox>h3 {
+	font-size: 40px;
+	color: #FFFFFF;
+	margin-bottom: 48px;
+	text-align: center;
+	font-weight: 500;
+}
+.carClubBannerTxtBox>p {
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 33px;
+}
+.carClubContent {
+	background-color: #2B2E3D;
+	padding-top: 230px;
+}
+.carClubContent>h3 {
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 150px;
+}
+.itemShowContent {
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 200px;
+}
+.contentSign {
+	width: 402px;
+	height: 402px;
+}
+.contentText {
+	position: absolute;
+	top: 50%;
+	margin-top: -95px;
+}
+.contentText>h4 {
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.contentText>p {
+	font-size: 24px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.contentText>div {
+	overflow: hidden;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	position: relative;
+}
+.contentText>div>b {
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #FFB132;
+	position: relative;
+	top: 7px;
+}
+.contentText>div>span {
+	line-height: 30px;
+	display: block;
+	width: 417px;
+}
+.rightFloat {
+	right: 0;
+}
+.leftFloat {
+	left: 0;
+}
+.carClubBottom {
+	width: 100%;
+	height: auto;
+}
+
+#recruitCarClub {
+	width: 100%;
+	height: auto;
+	background-color: #2B2E3D;
+	padding: 200px 0 250px;
+}
+.recruitModule {
+	width: 1059px;
+	height: 540px;
+	margin: 0 auto;
+	padding: 70px 50px 50px;
+	position: relative;
+}
+.carClubWelfare,.leaderWelfare {
+	margin-bottom: 380px;
+}
+.moduleLeftTop {
+	width: auto;
+	height: 74px;
+	padding: 0 30px;
+	position: absolute;
+	top: -37px;
+	left: 0;
+	background-image: -webkit-gradient(linear, right top, left top, from(rgba(19,30,60,0.80)), to(rgba(19,30,60,0.10)));
+	background-image: linear-gradient(-90deg, rgba(19,30,60,0.80) 0%, rgba(19,30,60,0.10) 100%);
+	line-height: 74px;
+	text-align: center;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.moduleText {
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 32px;
+	width: 468px;
+}
+.moduleText>p {
+	margin-bottom: 30px;
+}
+.toApplyClub {
+	position: absolute;
+	left: 50px;
+	bottom: 45px;
+	height: 60px;
+	width: 178px;
+	text-align: center;
+	line-height: 60px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#FFDF00), to(#FEA200));
+	background-image: linear-gradient(90deg, #FFDF00 0%, #FEA200 100%);
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.showLoadAppQr {
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	height: 178px;
+	padding:10px 18px 26px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#FFDF00), to(#FEA200));
+	background-image: linear-gradient(90deg, #FFDF00 0%, #FEA200 100%);
+}
+.toApplyClub:hover {
+	cursor: pointer;
+}
+.carClubWelfare {
+	background: url('../../images/carClubWelfare.png') no-repeat center;
+	background-size: 100%;
+}
+.leaderWelfare {
+	background: url('../../images/leaderWelfare.png') no-repeat center;
+	background-size: 100%;
+}
+.carClubManerger {
+	background: url('../../images/carClubManerger.png') no-repeat center;
+	background-size: 100%;
+}

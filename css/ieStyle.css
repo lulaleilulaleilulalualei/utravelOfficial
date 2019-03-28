@@ -1,0 +1,33 @@
+/* padding 18 24 */
+
+.phoneBox {
+	width: 438px;
+	height: 812px;
+}
+.swiper-container {
+	width: 343px;
+	height: 736px;
+	position: relative;
+	top: 40px;
+}
+.itemShowImg {
+	padding: 0;
+}
+.phoneLoad>div {
+	background-color: #FFB132;
+}
+.homeLookQr {
+	background-color: #FFB132;
+}
+.toApplyClub {
+	background-color: #FFB132;
+}
+.showLoadAppQr {
+	background-color: #FFB132;
+}
+.phoneContentCut {
+	background-color: #FFB132;
+}
+.itemPhoneContent {
+	margin-bottom: 70px;
+}
